@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43242" started-at="2021-05-18T16:18:48Z" finished-at="2021-05-18T16:19:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43242" started-at="2021-05-18T16:18:48Z" finished-at="2021-05-18T16:19:31Z">
+      <class name="com.ImpactGuru.DonationPage">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.ImpactGuru.DonationPage@1786dec2]" name="initialization" is-config="true" duration-ms="8221" started-at="2021-05-18T16:18:48Z" finished-at="2021-05-18T16:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.ImpactGuru.DonationPage@1786dec2]" name="login" is-config="true" duration-ms="6611" started-at="2021-05-18T16:18:56Z" finished-at="2021-05-18T16:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateNullValueOverall()[pri:0, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateNullValueOverall" duration-ms="2597" started-at="2021-05-18T16:19:03Z" finished-at="2021-05-18T16:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNullValueOverall -->
+        <test-method status="PASS" signature="validateInvalidCardNumber()[pri:1, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateInvalidCardNumber" duration-ms="9618" started-at="2021-05-18T16:19:05Z" finished-at="2021-05-18T16:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidCardNumber -->
+        <test-method status="PASS" signature="validateValidCardNumber()[pri:2, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateValidCardNumber" duration-ms="440" started-at="2021-05-18T16:19:15Z" finished-at="2021-05-18T16:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidCardNumber -->
+        <test-method status="PASS" signature="validateInvalidExpiryDate()[pri:3, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateInvalidExpiryDate" duration-ms="1300" started-at="2021-05-18T16:19:15Z" finished-at="2021-05-18T16:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidExpiryDate -->
+        <test-method status="PASS" signature="validateValidExpiryDate()[pri:4, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateValidExpiryDate" duration-ms="1369" started-at="2021-05-18T16:19:17Z" finished-at="2021-05-18T16:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidExpiryDate -->
+        <test-method status="PASS" signature="validateTwoDigitCVV()[pri:5, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateTwoDigitCVV" duration-ms="346" started-at="2021-05-18T16:19:18Z" finished-at="2021-05-18T16:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTwoDigitCVV -->
+        <test-method status="PASS" signature="validateFourDigitCVV()[pri:6, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateFourDigitCVV" duration-ms="494" started-at="2021-05-18T16:19:19Z" finished-at="2021-05-18T16:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFourDigitCVV -->
+        <test-method status="PASS" signature="validateThreeDigitCVV()[pri:8, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateThreeDigitCVV" duration-ms="12082" started-at="2021-05-18T16:19:19Z" finished-at="2021-05-18T16:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateThreeDigitCVV -->
+        <test-method status="PASS" signature="validateMascotIconPresence()[pri:9, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateMascotIconPresence" duration-ms="44" started-at="2021-05-18T16:19:31Z" depends-on-methods="com.ImpactGuru.DonationPage.validateThreeDigitCVV" finished-at="2021-05-18T16:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMascotIconPresence -->
+        <test-method status="PASS" signature="validateUserNameInSuccessMessage()[pri:10, instance:com.ImpactGuru.DonationPage@1786dec2]" name="validateUserNameInSuccessMessage" duration-ms="59" started-at="2021-05-18T16:19:31Z" depends-on-methods="com.ImpactGuru.DonationPage.validateThreeDigitCVV" finished-at="2021-05-18T16:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameInSuccessMessage -->
+      </class> <!-- com.ImpactGuru.DonationPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
